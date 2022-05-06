@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+:root {
+    --background: #eee;
+    --text-color: #2c3e50;
+    --form-background: #fff;
+    --accent: #3279d6;
+    --input-text: #4e4e4e;
+    --input-background: #ecf3fc;
+    --shadow: rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    font-family: "Noto Sans", sans-serif;
+    color: var(--text-color);
+
+    background-color: var(--background);
+}
+fieldset {
+    border: none;
+
+    width: 100%;
+}
+label {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+input,
+select {
+    box-sizing: border-box;
+
+    padding: 0.65rem 1rem;
+
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid var(--accent);
+
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--input-text);
+
+    background-color: var(--input-background);
+
+    caret-color: var(--accent);
+
+    margin: 0.75rem 0;
+
+    width: 100%;
+}
